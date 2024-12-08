@@ -4,7 +4,7 @@ import classNames from "classnames";
 import { useEffect, useState } from "react";
 import menuItems from "@/utils/menuItems";
 import styles from "@/styles/components/Header.module.scss";
-
+import '@fortawesome/fontawesome-free/css/all.min.css';
 function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [toggleSearch, setToggleSearch] = useState(false);

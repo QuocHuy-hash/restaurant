@@ -1,7 +1,7 @@
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
-
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import "@/styles/globals.scss";
 
 import type { AppProps } from "next/app";
